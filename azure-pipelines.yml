@@ -8,8 +8,6 @@ trigger:
 
 pool:
   vmImage: 'ubuntu-latest'
-  demands:
-  - Agent.OS -equals Linux
 
 variables:
   buildConfiguration: 'Release'
