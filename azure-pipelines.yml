@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  name: 'steam-linux'
+  name: 'ubuntu-18.04'
   demands:
   - Agent.OS -equals Linux
   - Agent.Name -equals VSTS-02
