@@ -10,7 +10,6 @@ pool:
   vmImage: 'ubuntu-latest'
   demands:
   - Agent.OS -equals Linux
-  - Agent.Name -equals VSTS-02
 
 variables:
   buildConfiguration: 'Release'
