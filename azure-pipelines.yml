@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  name: 'ubuntu-18.04'
+  vmImage: 'ubuntu-latest'
   demands:
   - Agent.OS -equals Linux
   - Agent.Name -equals VSTS-02
